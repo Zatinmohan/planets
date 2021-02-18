@@ -46,7 +46,6 @@ class HomePage extends StatelessWidget {
               ),
               underline: SizedBox(),
             ),
-            SizedBox(height: 30.0),
             Container(
                 //color: Colors.black,
                 height: MediaQuery.of(context).size.height * 0.65,
@@ -54,7 +53,7 @@ class HomePage extends StatelessWidget {
                 child: Swiper(
                   itemCount: planetList.length,
                   itemWidth: MediaQuery.of(context).size.width,
-                  itemHeight: MediaQuery.of(context).size.height * 0.50,
+                  itemHeight: MediaQuery.of(context).size.height * 0.70,
                   layout: SwiperLayout.TINDER,
                   itemBuilder: (context, index) {
                     int pos = planetList[index].position;
@@ -63,6 +62,7 @@ class HomePage extends StatelessWidget {
                     return Stack(
                       children: [
                         Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             SizedBox(
                               height: 10.0,
@@ -139,10 +139,7 @@ class HomePage extends StatelessWidget {
                           alignment: Alignment.topCenter,
                           child: Image.asset(
                             icon,
-                            //scale: 10,
-                            height: MediaQuery.of(context).size.height * 0.32,
-                            width: MediaQuery.of(context).size.width * 0.55,
-                            
+                            height: MediaQuery.of(context).size.height * 0.30,
                           ),
                         ),
                       ],
