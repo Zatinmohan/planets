@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_swiper/flutter_swiper.dart';
-import 'package:planets/model/planets.dart';
 import 'package:planets/widgets/content.dart';
 import 'package:planets/widgets/dropdowntext.dart';
 

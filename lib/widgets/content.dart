@@ -108,9 +108,12 @@ class CardContent extends StatelessWidget {
                   ),
                   Align(
                     alignment: Alignment.topCenter,
-                    child: Image.asset(
-                      icon,
-                      height: MediaQuery.of(context).size.height * 0.30,
+                    child: Hero(
+                      tag: object.icon,
+                      child: Image.asset(
+                        icon,
+                        height: MediaQuery.of(context).size.height * 0.30,
+                      ),
                     ),
                   ),
                 ],
