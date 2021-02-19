@@ -1,6 +1,6 @@
-# planets
+# Planet Flutter app
 
-A new Flutter project.
+A simple flutter app that shows information about planets in solar system.
 
 ## Resources
  - [Design courtesy](https://dribbble.com/shots/6600859-Explore-Universe-App-UI)
