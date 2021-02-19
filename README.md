@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+## Resources
+ - [Design courtesy](https://dribbble.com/shots/6600859-Explore-Universe-App-UI)
+ - [Swiper](https://pub.dev/packages/flutter_swiper)
+ - [Read more](https://pub.dev/packages/readmore)
+ - [Google Font - Asap](https://pub.dev/packages/google_fonts)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
